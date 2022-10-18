@@ -6,6 +6,6 @@ def main(s):
     Returns:
         int: answer
     """
-    answer=int(len(s)+1)
+    answer=int(len(s))
     return answer
 print(main('12456'))
