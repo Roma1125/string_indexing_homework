@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    answer=f'{s[0]+s[-1]}'
+    return answer
+print(main('aaadadsdsf'))
