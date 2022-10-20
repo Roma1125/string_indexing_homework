@@ -6,5 +6,16 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if s[0]=='*':
+        d=0
+    if s[1]=='*':
+        d=1
+    if s[2]=='*':
+        d=2
+    if s[3]=='*':
+        d=3
+    if s[4]=='*':
+        d=4
+    return d
+print(main('asdf*'))
         
