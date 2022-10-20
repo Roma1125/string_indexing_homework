@@ -11,11 +11,11 @@ def main(s):
     if s[1]=='*':
         answer=1
     if s[2]=='*':
-        answe=2
+        answer=2
     if s[3]=='*':
-        answe=3
+        answer=3
     if s[4]=='*':
-        answe=4
+        answer=4
     return answer
 print(main('asdf*'))
         
