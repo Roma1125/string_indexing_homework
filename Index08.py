@@ -16,6 +16,6 @@ def main(s):
         answe=3
     if s[4]=='*':
         answe=4
-    return d
+    return answer
 print(main('asdf*'))
         
